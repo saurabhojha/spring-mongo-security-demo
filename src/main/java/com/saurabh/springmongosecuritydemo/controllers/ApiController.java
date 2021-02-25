@@ -11,9 +11,7 @@ import org.springframework.web.bind.annotation.*;
 public class ApiController {
 
     @GetMapping("/user")
-    public String user() {
-        return "USER LEVEL ACCESS";
-    }
+    public String user() { return "USER LEVEL ACCESS"; }
 
     @GetMapping("/admin")
     public String admin() {
